@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stlye.css">
+    <title>E-commerce product page</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="row">
+            <div class="toggler-icon">
+                <img src="/images/icon-menu.svg" alt="">
+            </div>
+            <div class="logo">
+                <img src="/images/logo.svg" alt="">
+            </div>
+            <ul class="navbar">
+                <li class="navbar-item"><a href="#" class="navbar-link">Collections</a></li>
+                <li class="navbar-item"><a href="#" class="navbar-link">Men</a></li>
+                <li class="navbar-item"><a href="#" class="navbar-link">Women</a></li>
+                <li class="navbar-item"><a href="#" class="navbar-link">About</a></li>
+                <li class="navbar-item"><a href="#" class="navbar-link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="cart">
+                <span class="items-in-cart" ></span>
+                <img src="/images/icon-cart.svg" alt="">
+            </div>
+            <div class="profile-icon">
+                <img src="/images/image-avatar.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Overlay -->
+    <div class="overlay">
+        <div class="overlay-nav">
+            <div class="close">
+                <img src="/images/icon-close.svg" alt="">
+            </div>
+            <ul class="mobile-nav">
+                <li class="m-navbar-item"><a href="#" class="m-navbar-link">Collections</a></li>
+                <li class="m-navbar-item"><a href="#" class="m-navbar-link">Men</a></li>
+                <li class="m-navbar-item"><a href="#" class="m-navbar-link">Women</a></li>
+                <li class="m-navbar-item"><a href="#" class="m-navbar-link">About</a></li>
+                <li class="m-navbar-item"><a href="#" class="m-navbar-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <!-- Product Image -->
+
+    <section class="product-section" >
+        <div class="cart-container">
+            <h3>Cart</h3>
+            <p class="empty" >Your cart is empty</p>
+            <div class="cart-wrapper">
+                <div class="cart-content">
+                    <div class="product-cart">
+                        <div class="cart-image">
+                            <img src="/images/image-product-1-thumbnail.jpg" alt="">
+                        </div>
+                        <div class="cart-product">
+                            <p>Fall Limited Edition Sneakers</p>
+                            <div class="cart-price" >
+                                <p>$125.00 x</p>
+                                <span class="product-number" ></span>
+                                <h4 class="total-price" ></h4>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="delete-icon">
+                        <img src="/images/icon-delete.svg" alt="">
+                    </div>
+                </div>
+                <div class="checkout">
+                    Checkout
+                </div>
+            </div>
+        </div>
+        <div class="product-image">
+            <img id="slideImage" alt="">
+            <!-- Arrows -->
+            <div class="arrow-btns">
+                <div class="previous">
+                    <img src="/images/icon-previous.svg" alt="">
+                </div>
+                <div class="next">
+                    <img src="/images/icon-next.svg" alt="">
+                </div>
+            </div>
+            <!-- gallery -->
+            <div class="gallery">
+                <div data-image="/images/image-product-1.jpg" class="gallery-img gallery-img-1"></div>
+                <div data-image="/images/image-product-2.jpg" class="gallery-img gallery-img-2"></div>
+                <div data-image="/images/image-product-3.jpg" class="gallery-img gallery-img-3"></div>
+                <div data-image="/images/image-product-4.jpg" class="gallery-img gallery-img-4"></div>
+            </div>
+        </div>
+        <div class="product-info">
+            <span class="product-span" >SNEAKER COMPANY</span>
+            <h1 class="product-name" >Fall Limited Edition <br> Sneakers</h1>
+            <p class="product-description">
+                These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
+            </p>
+            <div class="product-price">
+                <div class="new-price">
+                    <h2>$125.00</h2>
+                    <span>50%</span>
+                </div>
+                <div class="old-price">
+                    <p>$250.00</p>
+                </div>
+            </div>
+            <div class="buttons-container">
+                <div class="counter-btn">
+                    <div class="subtract">
+                        <img src="/images/icon-minus.svg" alt="">
+                    </div>
+                    <div class="counter"></div>
+                    <div class="add">
+                        <img src="/images/icon-plus.svg" alt="">
+                    </div>
+                </div>
+                <div class="cart-btn">
+                    Add to cart
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/app.js" ></script>
+</body>
+</html>
